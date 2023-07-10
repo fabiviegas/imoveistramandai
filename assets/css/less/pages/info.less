@@ -1,0 +1,49 @@
+// out: false
+
+@import "../base/_pallete.less";
+
+.soon {
+    background-image: url('../img/bg-info.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 185px;
+        padding-bottom: 48px;
+        
+
+        h2 {
+            font: 600 28px @fontM;
+            color: #1d1d1d;
+            margin-bottom: 20px;
+            letter-spacing: 2.8px;
+            text-align: center;
+
+            @media screen and (min-width: 600px) {
+                font-size: 42px;
+                letter-spacing: 3.8px;
+            }
+        }
+
+        h3 {
+            font: 500 20px @fontM;
+            color: #214A4D;
+            letter-spacing: 2.0px;
+            margin-bottom: 30px;
+            text-align: center;
+
+            @media screen and (min-width: 600px) {
+                font-size: 24px;
+                letter-spacing: 2.4px;
+            }
+        }
+
+        @media screen and (min-width: 600px) {
+            padding-top: 250px;
+            padding-bottom: 100px;
+        }
+    }
+}
